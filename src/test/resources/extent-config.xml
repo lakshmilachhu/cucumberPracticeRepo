@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentreports>
+    <configuration>
+        <theme>dark</theme> <!-- report theme standard, dark -->
+        <encoding>UTF-8</encoding> <!-- document encoding, defaults to UTF-8 -->
+        <protocol>https</protocol> <!-- protocol for script and stylesheets, defaults to https -->
+        <documentTitle>Selenium Cucumber Framework</documentTitle> <!-- title of the document -->
+        <reportName>Functional Testing Report</reportName> <!-- report name - displayed at top-nav -->
+        <dateFormat>yyyy-MM-dd</dateFormat> <!-- global date format override, defaults to yyyy-MM-dd -->
+        <timeFormat>HH:mm:ss</timeFormat> <!-- global time format override, defaults to HH:mm:ss -->
+        <scripts> <!-- custom javascript -->
+            <![CDATA[
+            $(document).ready(function(){
+
+            });
+            ]]>
+        </scripts>
+        <styles> <!-- custom styles -->
+            <![CDATA[
+
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>

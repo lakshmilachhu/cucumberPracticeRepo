@@ -1,0 +1,153 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 25,
+        "name": "Actions",
+        "description": "",
+        "id": "creating-a-customer-contact-details;actions;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3016273900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 5
+                }
+              ],
+              "location": "CreateContactStepDefs.OpenBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54538600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Maximize the browser",
+            "match": {
+              "location": "CreateContactStepDefs.maximize_the_browser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1107521400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate \"http://localhost:8888\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8888\"",
+                  "offset": 9
+                }
+              ],
+              "location": "CreateContactStepDefs.navigate_the_application(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2013495500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "wait for 2 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 9
+                }
+              ],
+              "location": "CreateContactStepDefs.waitForSeconds(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3001800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "send below Details",
+            "match": {
+              "location": "CreateContactStepDefs.passBelowDetails(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fn",
+                  "ln",
+                  "msg"
+                ]
+              },
+              {
+                "cells": [
+                  "mohan",
+                  "lakshmi",
+                  "Good Morning"
+                ]
+              },
+              {
+                "cells": [
+                  "xyz",
+                  "pqr",
+                  "Good Evening"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 354017800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "close browser",
+            "match": {
+              "location": "CreateContactStepDefs.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CC"
+          },
+          {
+            "name": "@CC01"
+          }
+        ]
+      }
+    ],
+    "name": "Creating a customer contact details",
+    "description": "",
+    "id": "creating-a-customer-contact-details",
+    "keyword": "Feature",
+    "uri": "featurefiles/CreateContact.feature",
+    "tags": [
+      {
+        "name": "@CC",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.983657">
+    <testcase classname="Creating a customer contact details" name="Actions" time="6.983657">
+        <system-out><![CDATA[Given Open "chrome" browser.................................................passed
+And Maximize the browser....................................................passed
+Then Navigate "http://localhost:8888" application...........................passed
+And wait for 2 seconds......................................................passed
+Then send below Details.....................................................passed
+Then close browser..........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
